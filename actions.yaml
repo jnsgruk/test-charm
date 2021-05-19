@@ -1,0 +1,17 @@
+# Copyright 2021 Jon Seager
+# See LICENSE file for licensing details.
+
+example-action:
+  description: An example action with some parameters.
+  params:
+    param-no-default:
+      description: "this parameter has no default."
+      type: string
+    param-blank-default:
+      description: "this parameter has a blank default value."
+      type: string
+      default: ""
+    param-default-value:
+      description: "this parameter has a default value."
+      type: string
+      default: "somevalue"
